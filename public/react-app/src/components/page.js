@@ -24,8 +24,9 @@ export default function Home() {
          </article>
        </header>
        <UploadSection onDrop={
-       	() => {
+       	(event) => {
        		//implementation of the on drop
+       		console.log(event)
        	}
 
        }
