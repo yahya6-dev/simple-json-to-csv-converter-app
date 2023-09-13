@@ -1,4 +1,4 @@
-@media  screen and (min-width: 800px) {
+@media  screen and (min-width: 1000px) {
   .content{
     width:60%;
     display:flex;
@@ -13,6 +13,43 @@
     box-shadow: 2px 2px 2px rgba(150,150,150,0.2), -2px -2px 2px rgba(150,150,150,0.2);
     margin-bottom:32px;
   }
+
+  .error{
+    position:absolute;
+    height:20%;
+    width:50%;
+    top:20%;
+    background-color:white;
+    border-color:rgba(60,60,60,0.4);
+    color:rgba(250,0,0,0.6);
+    display:flex;
+    flex-direction:column;
+   }
+
+   .error-icon{
+    color:rgb(60,60,60);
+    font-size:bolder;
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    margin-top:8px;
+    margin-bottom:8px;
+    margin-left:auto;
+    margin-right:8px;
+    padding:8px;
+    background-color:rgb(60,60,60,0.4);
+    text-align:center;
+   }
+
+   .error-text{
+    font-size:20px;
+    text-align:center;
+    margin:8px;
+   }
+
+   .error-icon:hover{
+    background-color:rgb(60,60,60,0.9);
+   }
 
   .loading{
     background-color:rgb(250,250,250,0.3);
@@ -166,6 +203,46 @@
     display:flex;
     flex-direction:column;
   }
+
+
+  .error{
+    position:absolute;
+    height:20%;
+    width:80%;
+    left:10%;
+    top:20%;
+    background-color:white;
+    border-color:rgba(60,60,60,0.9);
+    color:rgba(250,0,0,0.6);
+    display:flex;
+    flex-direction:column;
+    padding:8px;
+   }
+
+   .error-icon{
+    color:white;
+    font-size:bolder;
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    margin-top:8px;
+    margin-bottom:8px;
+    margin-left:auto;
+    margin-right:8px;
+    padding:8px;
+    background-color:rgb(60,60,60,0.4);
+    text-align:center;
+   }
+
+   .error-text{
+    font-size:20px;
+    text-align:center;
+    margin:8px;
+   }
+
+   .error-icon:hover{
+    background-color:rgb(60,60,60,0.9);
+   }
 
   .site-header{
     display:flex;
@@ -324,6 +401,43 @@
 
 
 @media screen and (max-width: 800px) and (orientation: landscape){
+
+  .error{
+    position:absolute;
+    height:50%;
+    width:70%;
+    top:40%;
+    background-color:rgb(230,230,230);
+    border-color:rgba(60,60,60,0.4);
+    color:rgba(250,0,0,0.6);
+    display:flex;
+    flex-direction:column;
+   }
+
+   .error-icon{
+    color:rgb(60,60,60);
+    font-size:bolder;
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    margin-top:8px;
+    margin-bottom:8px;
+    margin-left:auto;
+    margin-right:8px;
+    padding:8px;
+    background-color:rgb(60,60,60,0.4);
+    text-align:center;
+   }
+
+   .error-text{
+    font-size:20px;
+    text-align:center;
+    margin:8px;
+   }
+
+   .error-icon:hover{
+    background-color:rgb(60,60,60,0.9);
+   }
 
   .content{
     width:70%;
